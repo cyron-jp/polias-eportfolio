@@ -1,0 +1,4 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+html { scroll-behavior: smooth; }
+@keyframes fadeUp { from { opacity:0; transform: translateY(16px);} to { opacity:1; transform:none;} }
+.fade-up { animation: fadeUp .5s ease both; }
